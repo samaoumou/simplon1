@@ -24,7 +24,7 @@ int tab[5];
 char nom[50]=" ";
 char prenom[50]=" ";
 char matiere[50]=" ";
-int note1,note2;
+float note1,tt,moy,note,note2;
 int n=0,i=4,note,coef,som=0,somcoef=0,moy,tt,tt_som=0;    //la déclaration de l'ensemble des élément qu'on va avoir besoin
 printf("entrer le nom et prenom de l'apprenant: %s %s",nom,prenom);
 scanf("%s %s",&nom,&prenom);
