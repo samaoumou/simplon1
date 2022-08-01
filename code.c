@@ -37,11 +37,12 @@ int main(){
         else 
             {     
                 if(a>1)
-                    {         
+                    {   
+                        a--;       
                         printf("incorrecte il vous reste %d tentative: ",a);         
                         scanf("%s",&code);         
                         i=0;         
-                        a--;     
+                            
                     }
                 else 
                    { 
