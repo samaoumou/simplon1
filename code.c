@@ -20,11 +20,11 @@ int main(){
     char code[50];
     int i=0;
     printf("entrer ton code: ");
-    scanf("%s",&code);
+    scanf("%s",code);
     while (verif(code)==0)
     {
         printf("entrer entrer des nombres: ");
-         scanf("%s",&code);
+         scanf("%s",code);
     }
     int Tab[3] = {111,222,333};
     int a=3;  
@@ -40,7 +40,7 @@ int main(){
                     {   
                         a--;       
                         printf("incorrecte il vous reste %d tentative: ",a);         
-                        scanf("%s",&code);         
+                        scanf("%s",code);         
                         i=0;         
                             
                     }
